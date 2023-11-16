@@ -1,0 +1,177 @@
+body{
+    background-color:  hsl(216, 12%, 8%);
+
+}
+
+.countainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+
+}
+.card{
+    height: 400px;
+    width: 425px;
+    border-radius: 20px;
+    background-color: hsl(213, 19%, 18%);
+    
+}
+.circle{
+height: 40px;
+width: 40px;
+border-radius: 50%;
+background-color: hsl(216, 26%, 31%);
+margin-top: 25px;
+margin-left: 20px;
+
+
+}
+.star{
+    margin-left: 12px;
+    margin-top: 12px;
+}
+h1{
+    font-family: 'Overpass', sans-serif;
+    font-family: 700;
+    color:hsl(0, 0%, 100%);
+    margin-left: 30px;
+    margin-top: 30px;
+    
+}
+.card p{
+    font-family: 'Overpass', sans-serif;
+    font-weight: 400;
+    color:hsl(216, 12%, 54%);
+    margin-left:30px ;
+    margin-right: 40px;
+    
+
+
+}
+.rating{
+height: 40px;
+width: 40px;
+border-radius: 50%;
+background-color: hsl(216, 26%, 31%);
+margin-top: 25px;
+margin-left: 20px;
+}
+
+
+.rank-countainer{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin-bottom: 50px;
+   
+}
+.rank-countainer >div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: hsl(216, 26%, 31%);
+    font-family: 'Overpass', sans-serif;
+    color:hsl(216, 12%, 54%);
+
+    }
+    
+
+
+.button-countainer{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.boutouna {
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    height: 20px;
+    line-height: 10px;
+    color: #FFFFFF;
+    font-family: Arial;
+    width: 350px;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 20px 20px 10px 20px;
+    background-color: #FB7413;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+    letter-spacing: 3px;
+
+ }
+ 
+ .boutouna:active {
+    background: #FFFFFF;
+    border: solid #337FED 1px;
+    -webkit-border-radius: 21px;
+    -moz-border-radius: 21px;
+    border-radius: 21px;
+    text-decoration: none;
+    color: hsl(25, 97%, 53%);
+    
+ }
+.rank-countainer >div:hover{
+    background-color: grey;
+    color: white;
+}
+
+
+.tycountainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+
+}
+.tycard{
+    
+    height: 400px;
+    width: 425px;
+    border-radius: 20px;
+    background-color: hsl(213, 19%, 18%);
+
+    
+} 
+.imgcountainer{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    height: 150px;
+    width: 100%;
+    padding-top: 20px;
+    padding-right: 25px;
+    
+}
+.text-countainer{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
+.text{
+    margin-top: 30px;
+    height: 40px;
+    width: 190px;
+    background-color:hsl(216, 26%, 31%);
+    border-radius: 20px;
+    text-align: center;
+    padding-bottom: 5px;
+
+
+}
+.text p{
+    font-family: 'Overpass', sans-serif;
+    font-weight: 400;
+    color:hsl(25, 97%, 53%);
+}
+#clickedButton{
+    background-color: orange;
+    color:white;
+}
